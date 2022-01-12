@@ -98,12 +98,25 @@ img{
 .header {
   position: relative;
 }
+.serchbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 595px;
+  z-index: 7;
+  transform: translateY(50%);
+  height: 168px;
+  padding: 52px 64px;
+  background-image: url(../icons/cta-bg.svg);
+  content: "";
+}
 
 .navbar-wrapper {
   display: flex;
   align-items: center;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 .logo {
@@ -181,7 +194,6 @@ img{
 .hero-title {
   width: 565px;
   margin: 0;
-
   padding-bottom: 5px;
   font-size: 80px;
   line-height: 90px;
@@ -210,19 +222,7 @@ img{
   height: 56px;
   padding: 14px 40px 12px 40px;
 }
-.serchbar {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  z-index: 3;
-  height: 168px;
-  padding: 52px 64px;
-  background-image: url(../icons/cta-bg.svg);
-  content: "";
-  bottom: 0;
-  transform: translateY(-50%);
-}
+
 .searchbar-input {
   width: 769px;
   height: 64px;
